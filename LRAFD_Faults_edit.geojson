@@ -1,5 +1,6 @@
 {
 "type": "FeatureCollection",
+"name": "luangwa_rift_active_fault_database",
 "fieldAliases":{"FID":"FID","Fault_Name":"Fault_Name","Fault_Leng":"Fault_Leng","GeomorphEx":"GeomorphEx","Method":"Method","Confidence":"Confidence","Geological":"Geological","Notes":"Notes","References":"References","ID":"ID","Accuracy":"Accuracy","SHAPE_Leng":"SHAPE_Leng","Map_Length":"Map_Length"},
 "geometryType":"esriGeometryPolyline",
 "spatialReference":{"wkid":4326,"latestWkid":4326},
