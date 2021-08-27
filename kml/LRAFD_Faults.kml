@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="luangwa_rift_active_fault_database" id="luangwa_rift_active_fault_database">
+	<SimpleField name="FID" type="int"></SimpleField>
+	<SimpleField name="Fault_Name" type="string"></SimpleField>
+	<SimpleField name="Fault_Leng" type="float"></SimpleField>
+	<SimpleField name="GeomorphEx" type="string"></SimpleField>
+	<SimpleField name="Method" type="string"></SimpleField>
+	<SimpleField name="Confidence" type="int"></SimpleField>
+	<SimpleField name="Geological" type="string"></SimpleField>
+	<SimpleField name="Notes" type="string"></SimpleField>
+	<SimpleField name="References" type="string"></SimpleField>
+	<SimpleField name="ID" type="int"></SimpleField>
+	<SimpleField name="Accuracy" type="int"></SimpleField>
+	<SimpleField name="SHAPE_Leng" type="float"></SimpleField>
+	<SimpleField name="Map_Length" type="float"></SimpleField>
+</Schema>
+<Folder><name>luangwa_rift_active_fault_database</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#luangwa_rift_active_fault_database">
+		<SimpleData name="FID">0</SimpleData>
+		<SimpleData name="Fault_Name">Mulungwe</SimpleData>
+		<SimpleData name="Fault_Leng">48.4476720485</SimpleData>
+		<SimpleData name="GeomorphEx">Scarp</SimpleData>
+		<SimpleData name="Method">DEM, Hillshade, Slope</SimpleData>
+		<SimpleData name="Confidence">3</SimpleData>
+		<SimpleData name="Geological">Roughly follows quartz-basement</SimpleData>
+		<SimpleData name="Notes">Potential incised river, Edge not very stark</SimpleData>
+		<SimpleData name="References"></SimpleData>
+		<SimpleData name="ID">1</SimpleData>
+		<SimpleData name="Accuracy">500000</SimpleData>
+		<SimpleData name="SHAPE_Leng">48447.6720485</SimpleData>
+		<SimpleData name="Map_Length">47.6</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>30.0041739814152,-14.1350424771236 30.042721249144,-14.0972090468716 30.1131993749332,-14.0392676719027 30.1355663082901,-14.0207078760844 30.1502966807073,-14.0042197108825 30.153389979756,-13.9892291069216 30.1767785733129,-13.9598174692056 30.2086872332688,-13.9005964742815 30.2358130885368,-13.8702583465604 30.2934224791542,-13.8079401694356</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#luangwa_rift_active_fault_database">
+		<SimpleData name="FID">1</SimpleData>
+		<SimpleData name="Fault_Name">Mukopa</SimpleData>
+		<SimpleData name="Fault_Leng">45.6733023037</SimpleData>
+		<SimpleData name="GeomorphEx">Moderate escarpment with gentle scarp</SimpleData>
+		<SimpleData name="Method">DEM, Hillshade, Slope</SimpleData>
+		<SimpleData name="Confidence">3</SimpleData>
+		<SimpleData name="Geological">Follows contact Karoo-Basement</SimpleData>
+		<SimpleData name="Notes">Some areas more defined, few cutting rivers</SimpleData>
+		<SimpleData name="References"></SimpleData>
+		<SimpleData name="ID">2</SimpleData>
+		<SimpleData name="Accuracy">1000000</SimpleData>
+		<SimpleData name="SHAPE_Leng">45673.3023037</SimpleData>
+		<SimpleData name="Map_Length">45.17</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>30.1986941700096,-14.0322968984287 30.2149743969466,-14.0253691539332 30.2353187881018,-14.0100216296422 30.2541467720536,-13.9833960585675 30.2867151460248,-13.9318563361615 30.3088856637697,-13.9106098700932 30.3261367560766,-13.8941023588212 30.3393944818858,-13.8759046634244 30.38531536703,-13.8307591128587 30.4161268814376,-13.796808719439 30.4435407080356,-13.7696044030166 30.4868468983563,-13.7365298947163</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#luangwa_rift_active_fault_database">
+		<SimpleData name="FID">2</SimpleData>
+		<SimpleData name="Fault_Name">Chitumbi</SimpleData>
+		<SimpleData name="Fault_Leng">93.05187</SimpleData>
+		<SimpleData name="GeomorphEx">Steep scarp</SimpleData>
+		<SimpleData name="Method">Slope, Hillshade</SimpleData>
+		<SimpleData name="Confidence">1</SimpleData>
+		<SimpleData name="Geological">Roughly Follows contact Karoo-Muva</SimpleData>
+		<SimpleData name="Notes">Some fans/landslides, incised river in North</SimpleData>
+		<SimpleData name="References"></SimpleData>
+		<SimpleData name="ID">3</SimpleData>
+		<SimpleData name="Accuracy">1000000</SimpleData>
+		<SimpleData name="SHAPE_Leng">67650.2749028</SimpleData>
+		<SimpleData name="Map_Length">85.310765</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>30.323963825969,-14.6066356414829 30.3245586912204,-14.5721334568983 30.3282974586866,-14.548565426977 30.3303794868462,-14.5351809579163 30.3361763151752,-14.5238043152474 30.3500695271447,-14.501178460666 30.3524489878694,-14.4807150963039 30.3486166292716,-14.4699323161616 30.3528956216913,-14.45429369471 30.3645842386661,-14.4483544256209 30.3738641370515,-14.4383606901431 30.3795748439367,-14.4255116011557 30.3832451658371,-14.412027149402 30.3827692740526,-14.3963227055503 30.3768622581906,-14.3801828685522 30.3765568444032,-14.368311291414 30.3775760964097,-14.3527000942353 30.4034732139405,-14.3303204833231 30.4131275840945,-14.3187352380518 30.4125541734427,-14.3091559580954 30.4054157902206,-14.3034452513484 30.4269796556886,-14.2795316675686 30.4439630593201,-14.2602580337572 30.4467521599795,-14.2449022429241 30.4543434570865,-14.2367013701183 30.4805175284192,-14.2236143338656 30.5078813300946,-14.2033889163432 30.5287016141511,-14.1795943062293 30.5441681097022,-14.1593688872861 30.5554705502077,-14.1385486028393 30.5740779389666,-14.1091217617274 30.5988243332496,-14.0891342898805 30.6241418618104,-14.0852168777232 30.6435564374318,-14.0711882762616 30.6392424092415,-14.0587647448904 30.6481653880134,-14.0462725746098 30.66720107606,-14.0343752695807 30.681477842095,-14.0195036382942 30.6963494733814,-13.9873809147155 30.7219286791941,-13.9403865598505</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#luangwa_rift_active_fault_database">
+		<SimpleData name="FID">3</SimpleData>
+		<SimpleData name="Fault_Name">Chipola South</SimpleData>
+		<SimpleData name="Fault_Leng">57.3253186205</SimpleData>
+		<SimpleData name="GeomorphEx">Escarpment, steep scarp</SimpleData>
+		<SimpleData name="Method">Slope, Hillshade, DEM</SimpleData>
+		<SimpleData name="Confidence">1</SimpleData>
+		<SimpleData name="Geological">Mostly Follows contact Karoo-Basement</SimpleData>
+		<SimpleData name="Notes">Defined Scarp edge, possible splay faulting</SimpleData>
+		<SimpleData name="References"></SimpleData>
+		<SimpleData name="ID">5</SimpleData>
+		<SimpleData name="Accuracy">750000</SimpleData>
+		<SimpleData name="SHAPE_Leng">57325.3186205</SimpleData>
+		<SimpleData name="Map_Length">54.1</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>30.8805965151311,-13.8399433346906 30.8890733447079,-13.8206102136908 30.9026065295675,-13.8081180444387 30.909893628772,-13.8026155399552 30.9148461699932,-13.7943880759685 30.9214935008226,-13.7850670152861 30.927332378907,-13.7635080206205 30.9407168471662,-13.7519081487505 30.9508295563297,-13.7409031410461 30.9588602370091,-13.7266263753673 30.9665934849118,-13.7111598793835 30.9761113290406,-13.7049137943991 30.9820412752057,-13.7013840641801 30.9886034990558,-13.697477977933 30.9935943431441,-13.6978787217662 30.998634283851,-13.6927786131818 31.0016228870386,-13.6866633991406 31.0062485591558,-13.6792632746618 31.0101508750689,-13.6711731082802 31.0155760472859,-13.6635588315875 31.0234758568549,-13.6557541997285 31.0352779837542,-13.6405256503832 31.045366897637,-13.6287235227785 31.0522197463865,-13.6211092480671 31.0521838610192,-13.6170945389065 31.0499354629426,-13.6120672955567 31.0507302280886,-13.6058278594212 31.0578352740919,-13.5975049953327 31.0645929426967,-13.5906521472452 31.0644488193938,-13.5790997929536 31.0711602557351,-13.5624793290265 31.0723975747173,-13.5512482726671 31.0715958394048,-13.5422107700119 31.0716284026092,-13.5300181078149 31.0730654825658,-13.5138570000816 31.0748589605442,-13.5050390687681 31.0777720553105,-13.482869264209 31.0831518473499,-13.4750320478481 31.0879107687368,-13.4671500830445 31.0940048346183,-13.4600764159712 31.1000290656354,-13.4522507977274 31.0990374189474,-13.4337199640091 31.1018641654161,-13.4169347772595 31.1054638622201,-13.4046711477378 31.1043217209372,-13.38925224042</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#luangwa_rift_active_fault_database">
+		<SimpleData name="FID">4</SimpleData>
+		<SimpleData name="Fault_Name">Chipola West</SimpleData>
+		<SimpleData name="Fault_Leng">32.8978945776</SimpleData>
+		<SimpleData name="GeomorphEx">Scarp</SimpleData>
+		<SimpleData name="Method">Hillshade, Slope</SimpleData>
+		<SimpleData name="Confidence">4</SimpleData>
+		<SimpleData name="Geological">Small part fault mapped, rest through basement</SimpleData>
+		<SimpleData name="Notes">Small fault mapped, rest goes through basement, splay?</SimpleData>
+		<SimpleData name="References"></SimpleData>
+		<SimpleData name="ID">6</SimpleData>
+		<SimpleData name="Accuracy">400000</SimpleData>
+		<SimpleData name="SHAPE_Leng">32897.8945776</SimpleData>
+		<SimpleData name="Map_Length">32.36</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>31.0752568942928,-13.326795338706 30.9838855923865,-13.3585611427861 30.9521197872912,-13.3749794240146 30.9128586809088,-13.3878285128118 30.8764529271318,-13.3981791687608 30.8532531830341,-13.4021052792389 30.8418317698549,-13.4117420957884 30.8025706631565,-13.446363254058</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#luangwa_rift_active_fault_database">
+		<SimpleData name="FID">5</SimpleData>
+		<SimpleData name="Fault_Name">Chipola</SimpleData>
+		<SimpleData name="Fault_Leng">223.086856</SimpleData>
+		<SimpleData name="GeomorphEx">Scarp, escarpment</SimpleData>
+		<SimpleData name="Method">Slope, Hillshade, DEM</SimpleData>
+		<SimpleData name="Confidence">1</SimpleData>
+		<SimpleData name="Geological">Lower fault mapped, upper follows Karoo-Basement-Quartz</SimpleData>
+		<SimpleData name="Notes">Basescarp prominent, Incised rivers, some segments more defined (south)</SimpleData>
+		<SimpleData name="References"></SimpleData>
+		<SimpleData name="ID">7</SimpleData>
+		<SimpleData name="Accuracy">1000000</SimpleData>
+		<SimpleData name="SHAPE_Leng">219823.337178</SimpleData>
+		<SimpleData name="Map_Length">208.266274</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>31.0971974675798,-13.317866495046 31.118850563311,-13.3062071367173 31.1297960842289,-13.2855058259487 31.1417647719716,-13.2657967500941 31.1457699972463,-13.2502657927268 31.1596345253934,-13.2340428434291 31.1755531187192,-13.2196352068378 31.1823216744129,-13.2052063946364 31.1931611303768,-13.1932231899354 31.1986338901223,-13.1765669633477 31.2031548655543,-13.1546759207334 31.2107691423893,-13.1382576396765 31.2169557401983,-13.124694712609 31.2186213632526,-13.1078005391806 31.2231423387171,-13.09495144959 31.2326601828113,-13.0694912169558 31.236467320452,-13.0523590979381 31.2375929524128,-13.0422316473297 31.2512748531963,-13.0285497465462 31.2599003993425,-13.0228985266574 31.272022083412,-13.0174366581979 31.2859071645546,-13.0134922198687 31.3086901158725,-13.0042083768707 31.3102729984593,-12.9948990570408 31.319047259704,-12.9867196600169 31.3309740772688,-12.9834903483006 31.3395937534986,-12.9778003047813 31.3449475407617,-12.970364489138 31.3496828206214,-12.9592071420024 31.3541785169662,-12.9519585492412 31.3571724277008,-12.9442059327503 31.3576273083669,-12.9386715529896 31.3570338701732,-12.9269504140699 31.3591053733937,-12.9171607783555 31.3624590412665,-12.902108841169 31.3689311752023,-12.8919247480641 31.3734774305663,-12.8808336446258 31.3770466220008,-12.8701260697533 31.3805866639503,-12.8492119507202 31.3870484382747,-12.8300054231043 31.39251311856,-12.8137625883124 31.3959524272521,-12.8075939977257 31.4022436292839,-12.8023332822726 31.4063838914341,-12.7917684754067 31.4076821832566,-12.7849116229159 31.4122373655085,-12.7762781842587 31.4158615800434,-12.7640913392685 31.4213031119406,-12.7455117534533 31.4229708125978,-12.7316665774242 31.4255876270488,-12.7133741191869 31.4261572123925,-12.6880953593826 31.4248366115343,-12.6695831527573 31.4230282211699,-12.6630158403811 31.4205535817239,-12.6607315578156 31.416175373473,-12.6599701302937 31.4152235890708,-12.6573051339672 31.4141619569682,-12.6482987211058 31.411077638958,-12.6387653742256 31.4086562766947,-12.6265624977719 31.4102401025881,-12.6045137784167 31.4178543780205,-12.5989220454102 31.432450886753,-12.5808768464599 31.4414348373768,-12.5621355783135 31.4460034019909,-12.5384361456642 31.4522851788318,-12.5094543113821 31.465151409265,-12.4791321842418 31.4681257347445,-12.4574196024399 31.4688462277251,-12.4300754923553 31.4701415490853,-12.4097460109206 31.4718547610095,-12.3906151444337 31.4941265160242,-12.3699614229031 31.5109983795621,-12.3555864645658 31.5251264294263,-12.349042946581 31.5273437916655,-12.3519726976991 31.5322930705577,-12.3534003743026 31.5370519925693,-12.3524485899002 31.542083307906,-12.350972659016 31.5463709637079,-12.3469505858049 31.5523757214468,-12.3434066380781 31.5538033980504,-12.3384573591859 31.5501866173214,-12.3332225449731 31.555166418763,-12.3268585773354 31.5602755319862,-12.3203734555416 31.563352702841,-12.3132325631417 31.5639767012088,-12.3030405920409 31.565255333958,-12.2935461230911 31.5696347452757,-12.2822782848383 31.5719904116715,-12.2724273162741 31.5749171487088,-12.2670021451809 31.5799636016013,-12.257010688931 31.5863385615367,-12.2506552480708 31.5912640458187,-12.2477285110336 31.5932627930637,-12.2451586931472 31.594338409197,-12.2410535468685 31.595163981061,-12.2371941900499 31.5990448833078,-12.2323096037159 31.5988412899306,-12.2262899514248 31.6013291658734,-12.2200315849257 31.6056200327446,-12.2159736262961 31.6057549901759,-12.207184688157 31.6080195767942,-12.1986359198265 31.6082533974004,-12.1927629617988 31.6087530842116,-12.1871236392151 31.6113258764241,-12.1756888419191 31.6117354922241,-12.1651282111273 31.6126872766265,-12.1594175047132 31.616637181896,-12.1464732368416 31.6191594105623,-12.1361939652965 31.6225858344106,-12.1295314744801 31.6241086894544,-12.1247725524684 31.6252508307372,-12.1202039873373 31.6262026151396,-12.1146836378038 31.6300097527488,-12.1021200836929 31.636981573496,-12.0772309215719 31.6473322288713,-12.0529604193125 31.6594278223176,-12.029625838382 31.6709285505125,-12.010621876482 31.6752115803229,-12.0001522480564 31.6842050810006,-11.9965187583749 31.6882893556567,-11.9864651591331 31.6975785137778,-11.9770714762999 31.6994914686818,-11.961462863964 31.7091486668907,-11.9454360246356 31.7161214075973,-11.9296180559029 31.7242810487899,-11.9111075512552 31.7422111778665,-11.8932104266357 31.7490938445539,-11.869757784937 31.7676536403995,-11.8486995550352 31.7992357965679,-11.8367846774867 31.8536261983688,-11.785136623823 31.9069115957657,-11.7082518691662 31.9184046376216,-11.6213456822461</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#luangwa_rift_active_fault_database">
+		<SimpleData name="FID">6</SimpleData>
+		<SimpleData name="Fault_Name">Mkumpa</SimpleData>
+		<SimpleData name="Fault_Leng">52.6067542376</SimpleData>
+		<SimpleData name="GeomorphEx">Scarp</SimpleData>
+		<SimpleData name="Method">Geo map, Slope, DEM,Hillshade</SimpleData>
+		<SimpleData name="Confidence">3</SimpleData>
+		<SimpleData name="Geological">Roughly matches fault/Contact Karoo-basement</SimpleData>
+		<SimpleData name="Notes">Basescarp and cut rivers, bottom close to mapped fault. basement lineations</SimpleData>
+		<SimpleData name="References">Banks fig 3 matches south</SimpleData>
+		<SimpleData name="ID">8</SimpleData>
+		<SimpleData name="Accuracy">500000</SimpleData>
+		<SimpleData name="SHAPE_Leng">52606.7542376</SimpleData>
+		<SimpleData name="Map_Length">51.98</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>31.6345496825883,-13.7155074067392 31.6274113002879,-13.6805293300604 31.6238421088346,-13.6362713550577 31.6324081681804,-13.5984379248414 31.6381188747967,-13.5670290401002 31.6466849337733,-13.5299094484029 31.6592779795583,-13.4380394044403 31.6566603020477,-13.3976108160203 31.6655698498549,-13.3729785357688 31.6762908550063,-13.3472852146863 31.6755770166673,-13.3137348146625 31.6836671837185,-13.248061690685</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#luangwa_rift_active_fault_database">
+		<SimpleData name="FID">7</SimpleData>
+		<SimpleData name="Fault_Name">Luwi</SimpleData>
+		<SimpleData name="Fault_Leng">20.4883465246</SimpleData>
+		<SimpleData name="GeomorphEx">Minor Scarp/escarpment</SimpleData>
+		<SimpleData name="Method">Slope</SimpleData>
+		<SimpleData name="Confidence">4</SimpleData>
+		<SimpleData name="Geological">No contact, middle of Karoo</SimpleData>
+		<SimpleData name="Notes">Some linear feature, rivers go across, landslide</SimpleData>
+		<SimpleData name="References"></SimpleData>
+		<SimpleData name="ID">9</SimpleData>
+		<SimpleData name="Accuracy">250000</SimpleData>
+		<SimpleData name="SHAPE_Leng">20488.3465246</SimpleData>
+		<SimpleData name="Map_Length">20.14</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>31.6533376258623,-12.8967963131708 31.6500658666253,-12.8810323830653 31.6497684352431,-12.8661607517286 31.6530401941365,-12.8471250642824 31.6628554696367,-12.8257099146076 31.6711835844237,-12.8016178721514 31.6768348038248,-12.7816898855674 31.6830808890631,-12.7623567657915 31.6854603502175,-12.7451056733582 31.6854603501404,-12.7174444388744</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#luangwa_rift_active_fault_database">
+		<SimpleData name="FID">8</SimpleData>
+		<SimpleData name="Fault_Name">Kapampa</SimpleData>
+		<SimpleData name="Fault_Leng">40.4392797951</SimpleData>
+		<SimpleData name="GeomorphEx">Minor escarpment</SimpleData>
+		<SimpleData name="Method">DEM, Slope</SimpleData>
+		<SimpleData name="Confidence">3</SimpleData>
+		<SimpleData name="Geological">No contacts, middle of Karoo</SimpleData>
+		<SimpleData name="Notes">DEM has strong linear structure, slope is less so, rivers incised</SimpleData>
+		<SimpleData name="References"></SimpleData>
+		<SimpleData name="ID">10</SimpleData>
+		<SimpleData name="Accuracy">250000</SimpleData>
+		<SimpleData name="SHAPE_Leng">40439.2797951</SimpleData>
+		<SimpleData name="Map_Length">40.16</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>32.1321740891779,-12.2099282940825 32.0958873092262,-12.2533534567001 32.0780413516959,-12.2741737412123 32.050082684671,-12.2979683506671 32.0030883298923,-12.3556702803704 31.9626374925931,-12.415751671015 31.9013663720711,-12.4615562949638 31.8847101454453,-12.4794022529093</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#luangwa_rift_active_fault_database">
+		<SimpleData name="FID">9</SimpleData>
+		<SimpleData name="Fault_Name">Chitembo</SimpleData>
+		<SimpleData name="Fault_Leng">51.543322</SimpleData>
+		<SimpleData name="GeomorphEx">Scarp</SimpleData>
+		<SimpleData name="Method">Hillshade, Slope</SimpleData>
+		<SimpleData name="Confidence">2</SimpleData>
+		<SimpleData name="Geological">Proximal to small fault, contact of Karoo-Quartz</SimpleData>
+		<SimpleData name="Notes">Sharp corners, rivers</SimpleData>
+		<SimpleData name="References"></SimpleData>
+		<SimpleData name="ID">11</SimpleData>
+		<SimpleData name="Accuracy">500000</SimpleData>
+		<SimpleData name="SHAPE_Leng">20829.3170005</SimpleData>
+		<SimpleData name="Map_Length">47.774934</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>32.0567271532967,-11.6908160064196 32.0256196756071,-11.7205471626674 32.0222884301991,-11.748148910335 32.0018250655488,-11.7809854722155 31.9891638545448,-11.8009154021004 31.9785771279459,-11.8309756465523 31.9780839933633,-11.8492968233667 31.9697558798429,-11.8752329483302 31.9634248256007,-11.8912244957868 31.9524015713918,-11.8984683487405 31.9284879883405,-11.9238096089426 31.9158075501882,-11.949748744054 31.8727470094693,-11.9755171098924 31.8491826328314,-11.9981075322493 31.8295520795333,-12.0100048372784 31.7998088169604,-12.0213072770561 31.7730398806448,-12.0201175465532</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#luangwa_rift_active_fault_database">
+		<SimpleData name="FID">10</SimpleData>
+		<SimpleData name="Fault_Name">Kabungo</SimpleData>
+		<SimpleData name="Fault_Leng">50.159955</SimpleData>
+		<SimpleData name="GeomorphEx">Scarp</SimpleData>
+		<SimpleData name="Method">Hillshade, Slope</SimpleData>
+		<SimpleData name="Confidence">2</SimpleData>
+		<SimpleData name="Geological">Upper half follows contact, lower in middle of Karoo</SimpleData>
+		<SimpleData name="Notes">Strong edge, not very strong base scarp, middle scarp preserved</SimpleData>
+		<SimpleData name="References"></SimpleData>
+		<SimpleData name="ID">12</SimpleData>
+		<SimpleData name="Accuracy">750000</SimpleData>
+		<SimpleData name="SHAPE_Leng">38920.2192815</SimpleData>
+		<SimpleData name="Map_Length">45.339892</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>32.1713791586934,-11.6283010687681 32.1677594649777,-11.6322092719351 32.1656465036046,-11.639119226696 32.1597377572243,-11.6428451792827 32.149795761366,-11.6517511358501 32.1386396211885,-11.6648200229662 32.1268557253573,-11.6766162357591 32.1076762734418,-11.6929786073499 32.0985599796962,-11.7112111938055 32.0965290624486,-11.7197691634377 32.0913311232527,-11.7232547958573 32.087634066138,-11.7316794127348 32.0846137504372,-11.7396149956087 32.0837840440287,-11.7451577623389 32.0845306779159,-11.7489577641323 32.0823657749722,-11.7559022271467 32.0820970671626,-11.7579378927987 32.0795639366185,-11.7743525960601 32.0781061332001,-11.7819608882832 32.0777492140492,-11.7935250687716 32.0791792701136,-11.8001328319847 32.0794172162143,-11.8052724677574 32.080511768277,-11.8083181778448 32.0823285995082,-11.8094036555324 32.0865865322249,-11.818166766948 32.0871847452903,-11.8225804886012 32.0900367506834,-11.8369050223688 32.0901277482095,-11.8421113264321 32.0916428868622,-11.8470177316436 32.0954095736345,-11.8542750877114 32.0908410085032,-11.8727206694286 32.0890706895149,-11.8779745193295 32.0838816631035,-11.8834544610244 32.0764458471353,-11.8837518931026 32.0731378186199,-11.883913654 32.0698410494195,-11.8854030927306 32.0673512287349,-11.8869031359418 32.061948693166,-11.8944392485801 32.0614308704712,-11.8979048847144 32.0550919863516,-11.9068706937843 32.0459938104697,-11.9166950563567 32.0388554274522,-11.9381102054092 32.0323037243403,-11.9680969027061 32.0286854207563,-11.9733735954327 32.0145935600324,-11.9820093134265 32.0114916258852,-11.9821302340171 32.0068127225433,-11.9847932828033 31.9921585052127,-11.9981915958064</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#luangwa_rift_active_fault_database">
+		<SimpleData name="FID">11</SimpleData>
+		<SimpleData name="Fault_Name">Mwanya</SimpleData>
+		<SimpleData name="Fault_Leng">65.8510828528</SimpleData>
+		<SimpleData name="GeomorphEx">Escarpment</SimpleData>
+		<SimpleData name="Method">Slope</SimpleData>
+		<SimpleData name="Confidence">4</SimpleData>
+		<SimpleData name="Geological">Near Karoo-Basement contact</SimpleData>
+		<SimpleData name="Notes">Some potential cut off/incised rivers, alluvial fans</SimpleData>
+		<SimpleData name="References"></SimpleData>
+		<SimpleData name="ID">13</SimpleData>
+		<SimpleData name="Accuracy">400000</SimpleData>
+		<SimpleData name="SHAPE_Leng">65851.0828528</SimpleData>
+		<SimpleData name="Map_Length">64.59</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>32.5297005336852,-12.3807551012519 32.4677298523341,-12.4684874137459 32.4698237769032,-12.4764824027817 32.459544505626,-12.4962795186626 32.4545952265582,-12.508081645779 32.4446966686458,-12.5164573482348 32.4166630903631,-12.542577670166 32.3992351161509,-12.563438427362 32.3935430893968,-12.5691713253471 32.3593311257059,-12.6015690815698 32.3450543600527,-12.618701201332 32.3279222407611,-12.638688673739 32.3174526119774,-12.661531499856 32.2936580020452,-12.6919886000029 32.2647417826026,-12.7296469323644 32.2527312732933,-12.7452885267534 32.2391683446695,-12.7730489046072 32.237264776115,-12.7937502159319 32.2314555433925,-12.8127834028506 32.2145750396969,-12.8262741283248 32.2064297686206,-12.8394400162494 32.1984408127184,-12.8530055045772 32.1940626051747,-12.8627137062084</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#luangwa_rift_active_fault_database">
+		<SimpleData name="FID">12</SimpleData>
+		<SimpleData name="Fault_Name">Molaza-3 / Kasera</SimpleData>
+		<SimpleData name="Fault_Leng">15.8386824234</SimpleData>
+		<SimpleData name="GeomorphEx">Minor linear scarp</SimpleData>
+		<SimpleData name="Method">Hillshade</SimpleData>
+		<SimpleData name="Confidence">4</SimpleData>
+		<SimpleData name="Geological">Contact follows Karoo-Basement</SimpleData>
+		<SimpleData name="Notes">slight linear features, rivers, possible fans</SimpleData>
+		<SimpleData name="References"></SimpleData>
+		<SimpleData name="ID">14</SimpleData>
+		<SimpleData name="Accuracy">250000</SimpleData>
+		<SimpleData name="SHAPE_Leng">15838.6824234</SimpleData>
+		<SimpleData name="Map_Length">15.77</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>32.7264657867643,-12.0079108092542 32.6988640398067,-12.0281362282647 32.6693587234032,-12.0569277062002 32.6251007479006,-12.109751739859</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#luangwa_rift_active_fault_database">
+		<SimpleData name="FID">13</SimpleData>
+		<SimpleData name="Fault_Name">Molaza-2 / Matonda</SimpleData>
+		<SimpleData name="Fault_Leng">9.06804862591</SimpleData>
+		<SimpleData name="GeomorphEx">Minor linear escarpment</SimpleData>
+		<SimpleData name="Method">Slope, Hillshade</SimpleData>
+		<SimpleData name="Confidence">4</SimpleData>
+		<SimpleData name="Geological">Karoo-Basement contact, see step faults on map</SimpleData>
+		<SimpleData name="Notes">Cut fault group</SimpleData>
+		<SimpleData name="References"></SimpleData>
+		<SimpleData name="ID">15</SimpleData>
+		<SimpleData name="Accuracy">250000</SimpleData>
+		<SimpleData name="SHAPE_Leng">9068.04862591</SimpleData>
+		<SimpleData name="Map_Length">9.05</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>32.7645371633021,-11.9151118303697 32.7357456853511,-11.9439033076598 32.7029091229499,-11.9700773791673</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#luangwa_rift_active_fault_database">
+		<SimpleData name="FID">14</SimpleData>
+		<SimpleData name="Fault_Name">Molaza</SimpleData>
+		<SimpleData name="Fault_Leng">152.635448</SimpleData>
+		<SimpleData name="GeomorphEx">Escarpment, minor scarp (North)</SimpleData>
+		<SimpleData name="Method">Slope, DEM, Hillshade</SimpleData>
+		<SimpleData name="Confidence">1</SimpleData>
+		<SimpleData name="Geological">Contact follows Karoo-Basement</SimpleData>
+		<SimpleData name="Notes">Prominent base scarp, esp in middle/north, strong rivers on DEM</SimpleData>
+		<SimpleData name="References"></SimpleData>
+		<SimpleData name="ID">16</SimpleData>
+		<SimpleData name="Accuracy">750000</SimpleData>
+		<SimpleData name="SHAPE_Leng">128510.410613</SimpleData>
+		<SimpleData name="Map_Length">141.957368</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>32.7389877009184,-11.9137495889791 32.7951429807349,-11.8461728958314 32.8068373624063,-11.8325781777663 32.8484429069286,-11.7842117311372 32.8660509191413,-11.7699349653661 32.8717616247861,-11.7508992766664 32.8780508843519,-11.7318592592831 32.8863328978988,-11.7172151002507 32.9057879166358,-11.6828149664393 32.9048956197921,-11.6694304980898 32.909654541586,-11.6551537321309 32.9132237331461,-11.6441487251655 32.9185775201637,-11.6346308805524 32.9203621163574,-11.624815604227 32.932600925821,-11.6124257611626 32.9432891849128,-11.6023298231399 32.9467460347949,-11.5978208893763 32.9547819822188,-11.5873392192715 32.9621345163426,-11.5762033416781 32.9733139793967,-11.563750664156 32.9831213619332,-11.5543598896513 32.9897600575451,-11.5484350318877 33.0018953097358,-11.5304463062137 33.0099117141209,-11.5163480001592 33.0281681415948,-11.4941637922054 33.0394705816401,-11.464123095563 33.0602908664519,-11.4409233519827 33.0873572350903,-11.4076108982767 33.1060563672752,-11.3910229576188 33.124238880241,-11.3748933090733 33.1325491339857,-11.3604457146425 33.1335928816326,-11.3500681667402 33.1368321640475,-11.3440274340773 33.1385156455661,-11.3320630111778 33.1453734636502,-11.3154291560984 33.1524949804205,-11.2981556912005 33.1572836313803,-11.2816915036952 33.1633512571472,-11.2693183066988 33.1716793699334,-11.2525431071871 33.1725228633275,-11.2395513040391 33.176081372604,-11.2262500630267 33.1823631503228,-11.2177553866775 33.1846236382839,-11.2078806236601 33.1808165001098,-11.1997904557145 33.1764144984135,-11.1939607773122 33.1721926980798,-11.1917761261684 33.1722030559703,-11.1895729423952 33.1771461958919,-11.1855405650431 33.1770968002439,-11.1781626309789 33.1804135777844,-11.1718306004252 33.1885164957949,-11.158551458662 33.1912684888824,-11.1511761173002 33.1873486604209,-11.1285617194144 33.1767952748775,-11.1127316409258 33.1737978421376,-11.0894927401661 33.1697094296837,-11.0721764886495 33.1715185816749,-11.0575525120293 33.1591712728637,-11.0319259068066 33.1539935656771,-11.0108176132726 33.1539935660608,-10.9960428740474 33.1555011928278,-10.9770467801791 33.1517321257122,-10.9551861958628 33.152485940294,-10.9458389107427 33.1603255973897,-10.9298580708974 33.1626540878112,-10.9042714703785 33.1755031772428,-10.8978469256628 33.1947768113899,-10.8889239468909 33.1997736795022,-10.8803578872699 33.2083397391232,-10.874647180856 33.2208319094038,-10.8528751126526 33.2276133732703,-10.8421675381264 33.2358225137405,-10.8336014785054 33.2486716031721,-10.7986234017196 33.2554530670386,-10.7825620399303 33.2654468032631,-10.7561500227656 33.280080488449,-10.7475839631446</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#luangwa_rift_active_fault_database">
+		<SimpleData name="FID">15</SimpleData>
+		<SimpleData name="Fault_Name">Musamba</SimpleData>
+		<SimpleData name="Fault_Leng">67.7277523003</SimpleData>
+		<SimpleData name="GeomorphEx">Minor escarpment/scarp</SimpleData>
+		<SimpleData name="Method">Hillshade, Slope</SimpleData>
+		<SimpleData name="Confidence">3</SimpleData>
+		<SimpleData name="Geological">Contact follows Karoo-Basement/Quartz, tiny fault mapped</SimpleData>
+		<SimpleData name="Notes">Quite bitty and sinuous, cuts basement features</SimpleData>
+		<SimpleData name="References"></SimpleData>
+		<SimpleData name="ID">18</SimpleData>
+		<SimpleData name="Accuracy">500000</SimpleData>
+		<SimpleData name="SHAPE_Leng">67727.7523003</SimpleData>
+		<SimpleData name="Map_Length">65.18</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>32.608415004143,-10.9575883382111 32.6441069188464,-10.8952464588416 32.6436310268366,-10.8290974432542 32.6398238897281,-10.8010198030519 32.65401866245,-10.7725170619786 32.6565369808536,-10.7085854061866 32.6498176259394,-10.6815708610828 32.6594385799665,-10.5998284439288 32.667134388558,-10.5479102394281 32.6733346322767,-10.5276831859804 32.6700825896586,-10.5111412323863 32.666220044095,-10.4898735514156 32.678044555805,-10.4638169835523 32.6672908013148,-10.4545385547174 32.6687184780347,-10.4227727496955 32.6688310052066,-10.3917570043233 32.681982135038,-10.3728090275548</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#luangwa_rift_active_fault_database">
+		<SimpleData name="FID">16</SimpleData>
+		<SimpleData name="Fault_Name">Kuta</SimpleData>
+		<SimpleData name="Fault_Leng">99.468009</SimpleData>
+		<SimpleData name="GeomorphEx">Escarpment, scarp</SimpleData>
+		<SimpleData name="Method">Slope, Hillshade</SimpleData>
+		<SimpleData name="Confidence">2</SimpleData>
+		<SimpleData name="Geological">Left of Karoo-Basement contact</SimpleData>
+		<SimpleData name="Notes">Slope has strong change, North base scarp</SimpleData>
+		<SimpleData name="References"></SimpleData>
+		<SimpleData name="ID">17</SimpleData>
+		<SimpleData name="Accuracy">500000</SimpleData>
+		<SimpleData name="SHAPE_Leng">73683.2364959</SimpleData>
+		<SimpleData name="Map_Length">87.313297</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>33.0832006105606,-10.6164979831703 33.0874287440158,-10.5731951675518 33.1064644324046,-10.5246541643053 33.1250242279298,-10.4513667652313 33.1474653933458,-10.4073531620344 33.1436582557364,-10.3718991930475 33.1411435333063,-10.3558846697254 33.1516265984229,-10.3016477334312 33.1473906871666,-10.2708381551777 33.1505415162633,-10.2468330144021 33.1527414681503,-10.2253673396831 33.1534850485523,-10.2032086086998 33.15259275114,-10.166326963984 33.1548417224639,-10.1553682415169 33.1600765366767,-10.1472780740972 33.1631698359843,-10.1363325534703 33.1650734047889,-10.1208660569324 33.163883674286,-10.1030200993886 33.165745912777,-10.0914215511906 33.1672330766329,-10.0780370837791 33.1821047073062,-10.0515655799978 33.2044121544199,-10.0286632677197 33.252298806936,-10.0078429842164 33.2514478393005,-9.99800655366477 33.2678661202408,-9.98444362593142 33.2714353117495,-9.97159453650005 33.2857120777845,-9.95232090235271 33.3135517715527,-9.93376110650735 33.3371084355104,-9.90520757443738 33.3717181890543,-9.90217189191452 33.3819974605996,-9.89931653870741 33.400128953464,-9.90003037700927 33.4206874965544,-9.90174358893336 33.4291147542833,-9.90533657505227</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#luangwa_rift_active_fault_database">
+		<SimpleData name="FID">17</SimpleData>
+		<SimpleData name="Fault_Name">Kaloko</SimpleData>
+		<SimpleData name="Fault_Leng">25.5971735182</SimpleData>
+		<SimpleData name="GeomorphEx">Linear escarpment</SimpleData>
+		<SimpleData name="Method">Slope</SimpleData>
+		<SimpleData name="Confidence">2</SimpleData>
+		<SimpleData name="Geological">Does not follow contact</SimpleData>
+		<SimpleData name="Notes">Linear feature, alluvial fans, landslide</SimpleData>
+		<SimpleData name="References"></SimpleData>
+		<SimpleData name="ID">4</SimpleData>
+		<SimpleData name="Accuracy">400000</SimpleData>
+		<SimpleData name="SHAPE_Leng">25597.1735182</SimpleData>
+		<SimpleData name="Map_Length">25.37</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>30.849121330682,-13.9531759038494 30.8638739888477,-13.9284295089797 30.8757712936063,-13.9065384678739 30.8895721678032,-13.88893045616 30.9028971503053,-13.8717983372321 30.9067042875613,-13.8575215712848 30.9166980237058,-13.8394376681254 30.9304988978424,-13.8199260872978 30.9433479867233,-13.8042216447682 30.9528658314199,-13.7756681128521 30.9633354597143,-13.7528252873281</coordinates></LineString>
+  </Placemark>
+</Folder>
+</Document></kml>
