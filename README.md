@@ -1,5 +1,5 @@
 # Luangwa Rift Active Fault Database (LRAFD)
-Active fault database for the Luangwa Rift, Zambia compiled by Tess Turner, [Luke Wedmore] and Juliet Biggs at University of Bristol.
+Active fault database for the Luangwa Rift, Zambia compiled by Tess Turner, Luke Wedmore and Juliet Biggs at University of Bristol.
 
 The Luangwa Rift Active Fault Database (LRAFD) is a freely available open-source geospatial database of active fault traces within the Luangwa Rift, Zambia. Full details of the criteria used to assess activity will be released in a publication that is currently in preparation.
 
@@ -37,7 +37,7 @@ Note that in the [ESRI Shapefile] format, the length of the attribute are restri
 ## Version Control
 A static version of this database in all formats described above and associated with the impending publication will be placed on the Zendodo data archive.
 
-This version is intended to be live and as such we encourage edits of the [GeoJSON] file and the submission of pull requests. Please contact [Luke Wedmore] for information or to report errors in the database.
+This version is intended to be live and as such we encourage edits of the [GeoJSON] file and the submission of pull requests. Please contact Luke Wedmore (<luke.wedmore@bristol.ac.uk>) for information or to report errors in the database.
 
 ### References
 Styron, Richard, and Marco Pagani. “The GEM Global Active Faults Database.” Earthquake Spectra, vol. 36, no. 1_suppl, Oct. 2020, pp. 160–180, doi:10.1177/8755293020944182.
@@ -54,4 +54,4 @@ Styron, Richard, and Marco Pagani. “The GEM Global Active Faults Database.” 
 [GMT]: https://www.generic-mapping-tools.org/
 [convert.sh]: https://github.com/LukeWedmore/luangwa_rift_active_fault_database/blob/main/convert.sh
 [Styron and Pagani, 2020]: https://doi.org/10.1177%2F8755293020944182
-[Luke Wedmore]: luke.wedmore@bristol.ac.uk
+
