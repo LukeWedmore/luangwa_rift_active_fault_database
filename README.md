@@ -54,4 +54,4 @@ Styron, Richard, and Marco Pagani. “The GEM Global Active Faults Database.” 
 [GMT]: https://www.generic-mapping-tools.org/
 [convert.sh]: https://github.com/LukeWedmore/luangwa_rift_active_fault_database/blob/main/convert.sh
 [Styron and Pagani, 2020]: https://doi.org/10.1177%2F8755293020944182
-[Luke Wedmore]: <luke.wedmore@bristol.ac.uk>
+[Luke Wedmore]: luke.wedmore@bristol.ac.uk
