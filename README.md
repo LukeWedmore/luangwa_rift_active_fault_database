@@ -35,7 +35,7 @@ Following the [GEM-GAFD], this database is provided in a variety of GIS vector f
 Note that in the [ESRI Shapefile] format, the length of the attribute are restricted in length by the format, so we advise against using this format.
 
 ## Version Control
-A static version of this database in all formats described above and associated with the impending publication will be placed on the Zendodo data archive.
+A static version of this database in all formats described above and associated with the impending publication will be placed on the [Zenodo] data archive.
 
 This version is intended to be live and as such we encourage edits of the [GeoJSON] file and the submission of pull requests. Please contact Luke Wedmore (<luke.wedmore@bristol.ac.uk>) for information or to report errors in the database.
 
@@ -54,4 +54,5 @@ Styron, Richard, and Marco Pagani. “The GEM Global Active Faults Database.” 
 [GMT]: https://www.generic-mapping-tools.org/
 [convert.sh]: https://github.com/LukeWedmore/luangwa_rift_active_fault_database/blob/main/convert.sh
 [Styron and Pagani, 2020]: https://doi.org/10.1177%2F8755293020944182
+[Zenodo]: https://zenodo.org/
 
