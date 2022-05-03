@@ -6,9 +6,9 @@
 
 Active fault database for the Luangwa Rift, Zambia compiled by Tess Turner, Luke Wedmore and Juliet Biggs at University of Bristol.
 
-The Luangwa Rift Active Fault Database (LRAFD) is a freely available open-source geospatial database of active fault traces within the Luangwa Rift, Zambia. Full details of the criteria used to assess activity will be released in a publication that is currently in preparation.
+The Luangwa Rift Active Fault Database (LRAFD) is a freely available open-source geospatial database of active fault traces within the Luangwa Rift, Zambia.
 
-The active fault database is currently a work in progress but will be released in line with the Global Earthquake Model standards and form the basis of a publication that will shortly be submitted.
+The active fault database has been designed and released in line with the Global Earthquake Model standards. Full details of the criteria used to assess activity will be released in a publication that is currently in preparation.
 
 ## Citation
 Please cite the [latest release of this database on Zenodo] in addition to the following manuscript:
