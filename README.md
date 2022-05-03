@@ -1,8 +1,6 @@
 # Luangwa Rift Active Fault Database (LRAFD)
 
-
-
-
+[![DOI](https://zenodo.org/badge/399416875.svg)](https://zenodo.org/badge/latestdoi/399416875)
 
 Active fault database for the Luangwa Rift, Zambia compiled by Tess Turner, Luke Wedmore and Juliet Biggs at University of Bristol.
 
@@ -64,4 +62,4 @@ Styron, Richard, and Marco Pagani. “The GEM Global Active Faults Database.” 
 [convert.sh]: https://github.com/LukeWedmore/luangwa_rift_active_fault_database/blob/main/convert.sh
 [Styron and Pagani, 2020]: https://doi.org/10.1177%2F8755293020944182
 [Zenodo]: https://zenodo.org/
-[latest release of this database on Zenodo]:
+[latest release of this database on Zenodo]: https://zenodo.org/badge/latestdoi/399416875
