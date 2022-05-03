@@ -1,9 +1,18 @@
 # Luangwa Rift Active Fault Database (LRAFD)
+
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6513545.svg)](https://doi.org/10.5281/zenodo.6513545)
+
+
 Active fault database for the Luangwa Rift, Zambia compiled by Tess Turner, Luke Wedmore and Juliet Biggs at University of Bristol.
 
 The Luangwa Rift Active Fault Database (LRAFD) is a freely available open-source geospatial database of active fault traces within the Luangwa Rift, Zambia. Full details of the criteria used to assess activity will be released in a publication that is currently in preparation.
 
 The active fault database is currently a work in progress but will be released in line with the Global Earthquake Model standards and form the basis of a publication that will shortly be submitted.
+
+## Citation
+Please cite the [latest release of this database on Zenodo] in addition to the following manuscript:
+Turner, T. Wedmore, L.N.J., Biggs, J. Williams, J.N., Sichingabula, H.M., Kabumbu, C., Banda, K. The Luangwa Rift Active Fault Database and fault reactivations along the southwestern branch of the East African Rift. _Submitted to EGU Solid Earth_
 
 ## Data Format
 The LRAFD is a geospatial database containing a collection of active fault traces in GIS vector format. Each fault is mapped as a single continuous GIS feature, and has associated metadata that describe the geometry of the fault and various aspects of its exposure and the methodology used to map the fault.
@@ -55,4 +64,4 @@ Styron, Richard, and Marco Pagani. “The GEM Global Active Faults Database.” 
 [convert.sh]: https://github.com/LukeWedmore/luangwa_rift_active_fault_database/blob/main/convert.sh
 [Styron and Pagani, 2020]: https://doi.org/10.1177%2F8755293020944182
 [Zenodo]: https://zenodo.org/
-
+[latest release of this database on Zenodo]: https://doi.org/10.5281/zenodo.6513545
